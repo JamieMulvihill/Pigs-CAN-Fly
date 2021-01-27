@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="18.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACEQAABAACAEAAAAAAIQAAAAAAAAAEMAEAA=</HashCode>
+      <FileName>M:\PSVitaLAbs\Git\Coursework Submission\Build\Coursework\game_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrimitiveBuilder" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAAABAABIAAAAAIAAABgQAAASAEhCABA=</HashCode>
+      <FileName>M:\PSVitaLAbs\Git\Coursework Submission\Build\Coursework\primitive_builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneApp" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAkACAAAAAAAIAAIBAAAAAAAAACAhBgDCEAAAAA=</HashCode>
+      <FileName>M:\PSVitaLAbs\Git\Coursework Submission\Build\Coursework\scene_app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asset" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAQABAAAgAAAAABIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Asset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditsState" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACBCAAAAAAAAAAAgCEAAAAASAAAAFACARBAIAA=</HashCode>
+      <FileName>CreditsState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAACAAAAAAQACAAAAAAABIJAAAAAACAA=</HashCode>
+      <FileName>EnemyManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAIAoAAAAAAIACAAAAAEAAQwADgBQCABCAAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoseState" Collapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAQAAAAIBAAEAAAAAAAAABgCABAAAAA=</HashCode>
+      <FileName>LoseState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuState" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAIDAABIAYAAIhgAAAAACDKCAAALgQFBCABAJAAA=</HashCode>
+      <FileName>MenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAEAAAAAAAAAAAIAAAAAAAAAAAAAIEAAAACAMAAAo=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObstacleManager" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAEAAAAAAAAAAAAAAACAACAAAACABAAAAIACAA=</HashCode>
+      <FileName>ObstacleManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlsState" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACBAAAAAAAAAAAAAAAAAAAAAAAAABACCBAAIAA=</HashCode>
+      <FileName>ControlsState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="20" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IHwgICGQgIgCKAAAIBgICCgTAgAAFQgFgLQICw8QkJM=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDSGUq3DWhIEgg0hBqaYECFAgMohFOABpRCaGhAkaoA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplashScreen" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="State">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.125" Y="0.11" Height="0.182" Width="0.647" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAQCAgAIAAAGAAAAAAgACAQEAAABAQDACABABAAA=</HashCode>
+      <FileName>SplashScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="State::GAMESTATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>State.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="State::DIFFICULTY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>State.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQCAACBEAAAAwAAAAAAAAAAAAAAAAAEgBACBBgAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinState" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgCCACAAAAIIMIAAKDCAhAAAACAAADFhCABAAAAA=</HashCode>
+      <FileName>WinState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Mesh" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAAAAEAACAAAAAAhQACAAAgAEBAASAAAKhACgA=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\graphics\mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Platform" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQikGACAMhQALQsYwSRGAABHAgFAEYADQeEMBFCYAI=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\system\platform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::SpriteRenderer" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAgIAEAAAAAAAAiAAAAAAAAAEEAABAQAAAggIAA=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\graphics\sprite_renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Font" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAAQAAAABAABCAAAAAAAAAAAAAAAAAAAAgiAAE=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\graphics\font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::InputManager" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAIAAAAAAAACAAAAAAAAAABCEEAAAAAIAAAAAA=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\input\input_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Renderer3D" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIBAixKIAAJAAEQAggoKAAAAACSEEQAFAUQgEkygIA=</HashCode>
+      <FileName>m:\PSVitaLAbs\Git\Coursework Submission\Build\gef_abertay\graphics\renderer_3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Camera" Collapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAMAAAAAAAAAAACQAIAAAAAAAAAABAAEAAgAAg=</HashCode>
+      <FileName>GameState.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
